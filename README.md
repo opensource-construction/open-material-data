@@ -1,4 +1,3 @@
-![opensource_construction_logo](https://user-images.githubusercontent.com/74647806/225072310-c60cd2c1-b00f-4683-8543-9c5c4407f1fc.svg)
 
 <img src="[https://github.com/favicon.ico](https://user-images.githubusercontent.com/74647806/225072310-c60cd2c1-b00f-4683-8543-9c5c4407f1fc.svg)" width="48">
 
