@@ -13,4 +13,6 @@ Technically, the biggest challenge is to make unstructured data queryable. While
 # Solution
 By leveraging the power of the open source movement, the OpenMaterialData project offers a fundamentally new approach. Provided with access to tools for crawling data as well as for maintaining and enriching datasets (think a google like search engine approach), an API to search and find data and additionally a platform to communicate about product but also data quality (think reddit), committed members of the community across manufacturers, owners, planners and contractors can work together to make product data available in a digital, very need driven way. For more information regarding the tech concept see workflow diagram here.
 
+# Contribute
 
+You want to contribute? Great, because we need the open source community to help us bring our idea to life. You can join our discord as a starting point: https://discord.gg/x3hRa2QT 
