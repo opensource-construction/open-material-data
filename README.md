@@ -16,4 +16,4 @@ By leveraging the power of the open source movement, the OpenMaterialData projec
 
 # Contribute
 
-You want to contribute? Great, because we need the open source community to help us bring our idea to life. You can join our discord as a starting point: https://discord.gg/x3hRa2QT 
+You want to contribute? Great, because we need the open source community to help us bring our idea to life. You can join our [discord](https://discord.gg/x3hRa2QT) as a starting point.  
