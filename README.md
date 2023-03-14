@@ -1,4 +1,6 @@
-![opensource_construction_logo](https://user-images.githubusercontent.com/74647806/225072310-c60cd2c1-b00f-4683-8543-9c5c4407f1fc.svg = 250x250)
+![opensource_construction_logo](https://user-images.githubusercontent.com/74647806/225072310-c60cd2c1-b00f-4683-8543-9c5c4407f1fc.svg)
+
+<img src="[https://github.com/favicon.ico](https://user-images.githubusercontent.com/74647806/225072310-c60cd2c1-b00f-4683-8543-9c5c4407f1fc.svg)" width="48">
 
 # Goal
 The ultimate goal of the OpenMaterialData project is to enable all stakeholders in the construction industry to perform their workflows on the same product specific datasets, regardless of which software tools they use. 
