@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  header .logo,
+  header .text,
+  header .image {
+      margin: 10px 0;
+  }
+
+  main {
+      padding: 0 10px;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.logo,
+.image {
+  height: 50px;
+}
+
+main {
+  padding: 20px;
+}
+
+
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#searchInput {
+  width: 20%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#searchButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+  margin-left: -30px;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table thead {
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+}
+
+
+table thead th {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+table tbody td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+table tbody a {
+  text-decoration: none;
+  color: inherit;
+}
+
+table tbody a:hover {
+  text-decoration: underline;
+}
+
+
+.transposed {
+  width: 40%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transposed thead {
+  font-weight: bold;
+  color: rgb(11, 38, 145);
+}
+
+.transposed thead th {
+  background-color: yellow;
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.transposed tbody td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.transposed tbody tr:first-child td {
+  border-left: 1px solid #ccc;
+}
+
+.transposed tbody .first-column {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ccc;
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+
+}
+
+
+
+
+footer {
+  background-color: #005127;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 50px;
+}
+
+main {
+  margin-bottom: 60px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo,
+.text {
+  flex: 1;
+  text-align: center;
+}
+
+.left-logo {
+  text-align: left;
+}
+
+.right-logo {
+  text-align: right;
+}
