@@ -7,6 +7,7 @@
   header {
       flex-direction: column;
       align-items: center;
+      text-align: center;
   }
 
   header .logo,
@@ -41,6 +42,7 @@ header h1 {
 .logo,
 .image {
   height: 50px;
+  align-self: left;
 }
 
 main {
@@ -73,6 +75,15 @@ main {
 }
 
 
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+#materialsTable {
+  max-width: 800px; /* Adjust this value to your desired maximum width */
+  display: block;
+}
 
 table {
   width: 100%;
@@ -163,7 +174,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  color: white;
+  color: black;
   height: 50px;
 }
 
