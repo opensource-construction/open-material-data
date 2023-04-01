@@ -9,6 +9,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  width: 100%;
 }
 
 .header-content {
@@ -18,8 +19,8 @@ header {
 }
 
 .logo {
-  margin-right: 20px;
-  width: 200px;
+  margin-right: 200px;
+  width: 142px;
 }
 
 main {
@@ -87,9 +88,11 @@ table tbody td {
 }
 
 table tbody a {
-  text-decoration: none;
+  text-decoration: yes;
+  text-decoration-color: hsl(70, 100%, 40%);;
   color: inherit;
 }
+
 
 table tbody a:hover {
   text-decoration: underline;
@@ -155,12 +158,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-}
-
-.logo,
-.text {
-  flex: 1;
-  text-align: center;
 }
 
 .left-logo {
