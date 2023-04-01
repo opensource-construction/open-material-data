@@ -19,6 +19,7 @@ header {
 
 .logo {
   margin-right: 20px;
+  width: 200px;
 }
 
 main {
@@ -94,6 +95,45 @@ table tbody a:hover {
   text-decoration: underline;
 }
 
+.transposed {
+  width: 40%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transposed thead {
+  font-weight: bold;
+  color: rgb(11, 38, 145);
+}
+
+.transposed thead th {
+  background-color: yellow;
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.transposed tbody td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.transposed tbody tr:first-child td {
+  border-left: 1px solid #ccc;
+}
+
+.transposed tbody .first-column {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ccc;
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+
+}
 
 footer {
   background-color: yellow;
