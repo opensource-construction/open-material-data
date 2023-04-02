@@ -6,22 +6,33 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 10px;
   width: 100%;
 }
 
-.header-content {
+.header-left {
+  width: 120px;
+  flex: 1;
+}
+
+.header-center {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
+  flex: 8;
 }
 
-.logo {
-  margin-right: 200px;
-  width: 142px;
+.header-right {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex: 1;
 }
+
+
 
 main {
   padding: 20px;
