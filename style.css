@@ -73,7 +73,6 @@ table {
 }
 
 table thead {
-  background-color: yellow;
   font-weight: bold;
   color: black;
 }
@@ -81,7 +80,7 @@ table thead {
 table thead th {
   position: sticky;
   top: 0;
-  background-color: yellow;
+  background-color: #feee94;
   z-index: 100;
   padding: 5px;
   text-align: left;
@@ -128,7 +127,7 @@ table tbody a:hover {
 }
 
 .transposed thead th {
-  background-color: yellow;
+  background-color: #feee94;
   padding: 5px;
   text-align: left;
   border: 1px solid #ccc;
@@ -148,14 +147,14 @@ table tbody a:hover {
   padding: 5px;
   text-align: left;
   border: 1px solid #ccc;
-  background-color: yellow;
+  background-color: #feee94;
   font-weight: bold;
   color: black;
 
 }
 
 footer {
-  background-color: yellow;
+  background-color: #ffed00;
   padding: 10px;
   text-align: center;
   position: fixed;
