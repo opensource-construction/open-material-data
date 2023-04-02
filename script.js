@@ -59,6 +59,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const row = createTableRow(material);
             tableBody.appendChild(row);
         });
+
+          // Update row count in header-right
+        const rowCount = document.getElementById('rowCount');
+        rowCount.textContent = `${materials.length} materials`;
     }
 
     function filterTable(searchText) {

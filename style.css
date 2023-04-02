@@ -15,6 +15,7 @@ header {
 .header-left {
   width: 120px;
   flex: 1;
+  margin-left: 10px;
 }
 
 .header-center {
@@ -96,7 +97,6 @@ table tbody td {
   text-align: left;
   border: 1px solid #ccc;
 }
-
 
 
 table tbody td a {
