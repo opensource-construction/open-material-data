@@ -32,22 +32,17 @@ document.addEventListener('DOMContentLoaded', () => {
         // Create a table cell for each property
         for (const key in material) {
             const td = document.createElement('td');
-            
-            // Check if the property is 'material_name', create a link in this case
-            if (key === 'material_name') {
-                const a = document.createElement('a');
-                a.href = `product.html?file=${material.material_ID}`;
-                a.textContent = material[key];
-                td.appendChild(a);
-            } else {
-                td.textContent = material[key];
-            }
+            const a = document.createElement('a');
+            a.href = `product.html?file=${material.material_ID}`;
+            a.textContent = material[key];
+            td.appendChild(a);
             
             tr.appendChild(td);
         }
     
         return tr;
     }
+    
     
 
     async function populateTable() {

@@ -87,11 +87,16 @@ table tbody td {
   border: 1px solid #ccc;
 }
 
-table tbody a {
-  text-decoration: yes;
-  text-decoration-color: hsl(70, 100%, 40%);;
+
+
+table tbody td a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
   color: inherit;
 }
+
 
 
 table tbody a:hover {
